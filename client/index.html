@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TClone</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="text-center">Twitter Clone</h1>
+        </header>
+        <main>
+            <form class="row form-group">
+                <div class="error-message">
+                </div>
+                <label for="name">Name</label>
+                <input class="form-control col-md-12" type="text" id="name" name="name">
+                <label for="content">Tweet</label>
+                <textarea class="form-control col-md5-12" type="text" id="content" name="content"></textarea>
+                <button id="tweet" class="btn btn-primary">Send Your Text</button>
+            </form>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%"></div>
+            </div>
+            <div class='tweets'>
+
+            </div>
+        </main>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>
